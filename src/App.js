@@ -4,6 +4,9 @@ import camden2 from "./camden2.jpg";
 import camden3 from "./camden3.jpg";
 import camden4 from "./camden4.jpg";
 import camden5 from "./camden5.jpg";
+import camden6 from "./camden6.jpg";
+import camden7 from "./camden7.jpg";
+import camden8 from "./camden8.jpg";
 import "./App.css";
 import React, { useState, useEffect } from "react";
 
@@ -19,7 +22,7 @@ const getRandomColor = () => {
 };
 
 function App() {
-    const photos = [camden, camden2, camden3, camden4, camden5];
+    const photos = [camden, camden2, camden3, camden4, camden5, camden6, camden7, camden8];
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
